@@ -9,6 +9,11 @@
 #
 # Normal rules
 #
+!.config
+*.porig
+*.rej
+*.orig
+*~
 .*
 *.o
 *.o.*
