@@ -9,7 +9,6 @@
 #
 # Normal rules
 #
-!.config
 *.porig
 *.rej
 *.orig
@@ -55,6 +54,7 @@ modules.builtin
 #
 !.gitignore
 !.mailmap
+!.config
 
 #
 # Generated include files
