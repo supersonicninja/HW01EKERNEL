@@ -373,6 +373,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks \
+		   -Wno-maybe-uninitialized -Wno-array-bounds -Wno-switch -Wno-unused-value -Wno-sizeof-pointer-memaccess -Wno-address\
 		   -mcpu=cortex-a9
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
