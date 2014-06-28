@@ -374,7 +374,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks \
 		   -Wno-maybe-uninitialized -Wno-array-bounds -Wno-switch -Wno-unused-value -Wno-sizeof-pointer-memaccess -Wno-address\
-		   -mcpu=cortex-a9
+		   -mcpu=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
 KBUILD_AFLAGS   := -D__ASSEMBLY__
